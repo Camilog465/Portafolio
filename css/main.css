@@ -6,9 +6,15 @@
 
 } 
  body{ font-family: "Epilogue", sans-serif;
-    
+     
 
 }
+
+.header {
+    
+}
+
+
 
  .container {
     /* height: 90px; */
@@ -24,7 +30,7 @@
     font-size: 20px;
     font-weight: 600;}
 
-nav.navbar {
+.navbar {
     display: none;
 }
  ul.main-menu {
@@ -32,4 +38,21 @@ nav.navbar {
         padding: 0;
         margin: 0;
     }
+
+
+ @media ( min-width: 768px) {
+        .hamburger-icon {
+            display: none;
+        }
+        .navbar {
+            display: block;
+        }
+    }
+
+
+
+
+
+
+
 
