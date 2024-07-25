@@ -1,3 +1,17 @@
+:root {
+    --charleston-green-v1: #2d2d2d;
+    --charleston-green-v2: #2b2b2b;
+    --black: #000000;
+    --white: #ffffff;
+    --pink-lace: #f9e6f0;
+    --piggy-pink: #f6dce9;
+    --paolo-veranese-green: #009379;
+    --anti-flash-white: #f3f3f3;
+
+    --color-menu-link: var(--charleston-green-v1);
+
+
+}
 * {
     
     padding: 0;
@@ -10,14 +24,12 @@
 
 }
 
-
-
 .header {
     
 }
 .menu-item a {
     text-decoration: none;
-    color: black;
+    color: var(--color-menu-link );
 }
 .menu-item a:hover { 
     color: gray;
