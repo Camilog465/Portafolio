@@ -1,0 +1,22 @@
+.logo { 
+    font-size: 20px;
+    font-weight: 600;}
+
+.container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bio-content {
+        padding: 4.8rem 0;
+    }   
+    .container-description-content {
+        padding: 5rem ;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        border-top: 3px solid var(--anti-flash-white);
+        padding: 3rem 0;
+    }

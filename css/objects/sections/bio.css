@@ -1,0 +1,14 @@
+.bio {
+    background-color: var( --pink-lace);
+}
+
+.avatar-name {
+    font-size: 17px;
+    margin: 1.2rem 0;
+}
+.profession {
+    font-weight: normal;
+}
+.biography {
+    margin-top: 6rem;
+}

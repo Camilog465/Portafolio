@@ -1,0 +1,12 @@
+.container-description-content *:first-child {
+    margin-bottom: 2.5rem;
+    font-weight: normal;
+    line-height: 1.7;
+}
+.container-description-content p {
+    line-height: 1.7;
+}
+.description-content *:nth-child(2n):not(:nth-last-child(1)) {
+    background-color: red; 
+}
+

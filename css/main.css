@@ -1,110 +1,56 @@
-:root {
-    
-    --charleston-green-v1: #2d2d2d;
-    --charleston-green-v2: #2b2b2b;
-    --black: #000000;
-    --white: #ffffff;
-    --pink-lace: #f9e6f0;
-    --piggy-pink: #f6dce9;
-    --paolo-veranese-green: #009379;
-    --anti-flash-white: #f3f3f3;
-
-    --color-menu-link: var(--charleston-green-v1);
+@import "./settings/variables.css";
+@import "./generic/generic.css";
+@import "./elements/elements.css";
+@import "./objects/main.css";
 
 
-}
-
-* {
-    
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-} 
- body{ font-family: "Epilogue", sans-serif;
-     
-
-}
-
-p {
-    line-height: 1.4;
-    font-size: 17px;
-    }
-
-.header {
-    
-}
-.menu-item a {
-    text-decoration: none;
-    color: var(--color-menu-link );
-}
-.menu-item a:hover { 
-    color: gray;
-}
+/**  header */
 
 
- .container {
-    /* height: 90px; */
-    width: 90%;
-    margin: 0px auto;
-
-}
-
-.logo-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 26px auto;
-}
-
-.logo { 
-    font-size: 20px;
-    font-weight: 600;}
-
-.navbar {
-    display: none;
-}
- ul.main-menu {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        gap: .5rem;
-        
-    }
 
 
- @media ( min-width: 768px) {
-        .hamburger-icon {
-            display: none;
-        }
-        .navbar {
-            display: block;
-        }
-    }
+
+
 
 /** Main: -Section-Bio- */
-.bio {background-color: var(--pink-lace)}
 
 
-@media (min-width: 768px ) {
-    .container.bio-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 2rem;
-        width: 60%;
-        padding: 7rem 0%;
+
+
+
+
+
+
+
+.form-input { 
+    width: 100%;
+    height: var( --height-input );
+    padding: 25px;
+    margin-bottom: 1rem;
+    background-color: var( --anti-flash-white );
+    border: none;
+    outline: none;
+}
+
+   
+.btn {
+        width: 235px;
+        display: inline-block;
+        padding: 25px 85px;
+        border: 1px solid transparent;
+        margin: 1.6rem 0;
+        
+    }
+    .btn--bg-black {
+        background-color: var( --black );
+        color: var( --white );
+        font-weight: bold;
     }
     
-}
-.footer-content
-{
-    padding: 2rem;
-    gap: 8rem;
-}
+    textarea.form-input {
+        height: calc( var( --height-input ) * 3 );
+        resize: none;
+    }
     
 
 
